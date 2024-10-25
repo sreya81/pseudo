@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.main-container{
+    width:400px;
+    height:420px;
+    border:5px solid;
+    padding:5px;
+    top:0;
+    left:0;
+    transform:translate(0%,50%)
+}
+.row1{
+    display: flex;
+}
+.row1 div{
+    width: 50px;
+    height: 50px;
+}
+.row1 div:nth-child(even){
+    background-color: lightsalmon;
+}
+.row1 div:nth-child(odd){
+    background-color: aquamarine;
+}
+.row2,.row3,.row4,.row5,.row6,.row7,.row8{
+    display: flex;
+}
+.row2 div{
+    width: 50px;
+    height: 50px;
+}
+.row2 div:nth-child(odd){
+    background-color: lightsalmon;
+}
+.row2 div:nth-child(even){
+    background-color: aquamarine;
+}
+.row3 div{
+    width: 50px;
+    height: 50px;
+}
+.row3 div:nth-child(even){
+    background-color: lightsalmon;
+}
+.row3 div:nth-child(odd){
+    background-color: aquamarine;
+}
+.row4 div{
+    width: 50px;
+    height: 50px;
+}
+.row4 div:nth-child(odd){
+    background-color: lightsalmon;
+}
+.row4 div:nth-child(even){
+    background-color: aquamarine;
+}
+.row5 div{
+    width: 50px;
+    height: 50px;
+}
+.row5 div:nth-child(even){
+    background-color: lightsalmon;
+}
+.row5 div:nth-child(odd){
+    background-color: aquamarine;
+}
+.row6 div{
+    width: 50px;
+    height: 50px;
+}
+.row6 div:nth-child(odd){
+    background-color: lightsalmon;
+}
+.row6 div:nth-child(even){
+    background-color: aquamarine;
+}
+.row7 div{
+    width: 50px;
+    height: 50px;
+}
+.row7 div:nth-child(even){
+    background-color: lightsalmon;
+}
+.row7 div:nth-child(odd){
+    background-color: aquamarine;
+}
+.row8 div{
+    width: 50px;
+    height: 50px;
+}
+.row8 div:nth-child(odd){
+    background-color: lightsalmon;
+}
+.row8 div:nth-child(even){
+    background-color: aquamarine;
+}
+.row1 div{
+    font-size: 2rem;
+}
+.row2 div{
+    font-size: 2rem;
+}
+.row7 div{
+    font-size: 2rem;
+}
+.row8 div{
+    font-size: 2rem;
+}
+
+
+
